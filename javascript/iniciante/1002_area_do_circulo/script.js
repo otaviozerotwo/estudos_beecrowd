@@ -14,6 +14,6 @@ const PI = 3.14159;
 
 let raio = prompt();
 
-let A = PI * (Number(raio) * Number(raio));
+let area = PI * (Number(raio) * Number(raio));
 
-console.log(`A=${A.toFixed(4)}`);
+console.log(`A=${area.toFixed(4)}`);

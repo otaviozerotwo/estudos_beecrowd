@@ -15,7 +15,7 @@ do {
   A = prompt('A: ');
 
   if (A < 0 || A > 10.0) {
-    console.log('O valor de A precisar estar entre 0 e 10.0');
+    console.log('O valor de A precisa estar entre 0 e 10.0');
   }
 
   A = Number(A).toFixed(1);
@@ -27,7 +27,7 @@ do {
   B = prompt('B: ');
 
   if (B < 0 || B > 10.0) {
-    console.log('O valor de B precisar estar entre 0 e 10.0');
+    console.log('O valor de B precisa estar entre 0 e 10.0');
   }
 
   B = Number(B).toFixed(1);

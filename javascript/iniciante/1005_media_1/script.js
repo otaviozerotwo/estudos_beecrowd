@@ -11,15 +11,17 @@ const prompt = require('prompt-sync')();
 let A;
 let B;
 
+const pesoDeA = 3.5;
+const pesoDeB = 7.5;
+
 do {
   A = prompt('A: ');
 
   if (A < 0 || A > 10.0) {
     console.log('O valor de A precisa estar entre 0 e 10.0');
+  } else {
+    A = Number(A).toFixed(1);
   }
-
-  A = Number(A).toFixed(1);
-  console.log(`A = ${A}`);
 
 } while (A < 0 || A > 10.0);
 
@@ -28,13 +30,12 @@ do {
 
   if (B < 0 || B > 10.0) {
     console.log('O valor de B precisa estar entre 0 e 10.0');
+  } else {
+    B = Number(B).toFixed(1);
   }
-
-  B = Number(B).toFixed(1);
-  console.log(`B = ${B}`);
 
 } while (B < 0 || B > 10.0);
 
-let media = ((A * 3.5) + (B * 7.5)) / 11;
+let media = ((A * pesoDeA) + (B * pesoDeB)) / (pesoDeA + pesoDeB);
 
 console.log(`MEDIA = ${media.toFixed(5)}`);

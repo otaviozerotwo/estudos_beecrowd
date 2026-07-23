@@ -6,12 +6,14 @@ A entrada contém 2 valores inteiros.
 * Saída
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo. */
 
-const input = require('fs').readFileSync('input.txt', 'utf-8');
-const lines = input.split('\n');
+function solve(input) {
+  const lines = input.split('\n');
+  const a = Number(lines[0]);
+  const b = Number(lines[1]);
 
-let a = Number(lines[0]);
-let b = Number(lines[1]);
+  const x = a + b;
 
-let x = a + b;
+  return `X = ${x}`;
+}
 
-console.log(`X = ${x}`);
+module.exports = { solve };

@@ -1,0 +1,21 @@
+{
+  "name": "estudos_beecrowd",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado com o objetivo de armazenar as soluções dos exercícios resolvidos na plataforma **Beecrowd**, servindo como um registro da minha evolução nos estudos de programação.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviozerotwo/estudos_beecrowd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/otaviozerotwo/estudos_beecrowd/issues"
+  },
+  "homepage": "https://github.com/otaviozerotwo/estudos_beecrowd#readme"
+}

@@ -23,7 +23,7 @@ O **Beecrowd** é uma plataforma online que disponibiliza centenas de problemas 
 A organização dos arquivos poderá seguir uma estrutura semelhante à seguinte:
 
 ```text
-beecrowd/
+src/
 ├── javascript/
 │   ├── iniciante/
 │   ├── ad-hoc/

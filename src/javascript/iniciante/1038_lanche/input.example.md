@@ -16,5 +16,5 @@ input:
 2 3
 
 output:
-Total: R$ 13.5
+Total: R$ 13.50
 
